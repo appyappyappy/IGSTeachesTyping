@@ -1,0 +1,48 @@
+body{
+     background-color: #5377c5;
+     background: url('./gremlinprojectbackground.jpeg');
+     background-size: cover;
+     padding: 25px;
+}
+
+#asdf{
+     background-color: antiquewhite;
+     padding: 25px;
+     border-radius: 25px;
+}
+
+#testObj{
+     color:#000000;
+}
+
+#textBlurb{
+     color: #6c91d9;
+}
+
+#auteur{
+     color:#000000;
+     font-family: "Arial", sans-serif;
+     font-weight: bold;
+     font-size: 80%;
+}
+
+#incorrect{
+     color:#ff0000;
+     background-color: rgba(255, 0, 0, 0.33);
+}
+
+span{
+     font-family: "Arial", sans-serif;
+     font-weight: bold;
+}
+
+#text{
+     background-color: rgba(255, 255, 255, 0.33);
+     border: none;
+     outline: none;
+     border-radius: 25px;
+     height: 300px;
+     width: 100%;
+     text-align: center;
+     word-wrap: break-word;
+}
