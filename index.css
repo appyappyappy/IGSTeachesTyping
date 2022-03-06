@@ -25,6 +25,12 @@ body{
      font-weight: bold;
      font-size: 80%;
 }
+#FINAL{
+     color:#000000;
+     font-family: "Arial", sans-serif;
+     font-weight: bold;
+     font-size: 120%;
+}
 
 #incorrect{
      color:#ff0000;
