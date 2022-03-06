@@ -89,6 +89,9 @@ var gameOver;
 var fullSentence;
 var wrongSentence;
 var index;
+var mistakeCounter;
+var alreadyStarted = false;
+var startTime;
 gameCode();
 
 function gameCode(){
@@ -150,15 +153,15 @@ function gameCode(){
      fullSentence = "", wrongSentence = "";
      var userInput = document.getElementById("text")
      userInput.value = "";
-     var mistakeCounter = 0;
+     mistakeCounter = 0;
      var firstMistake = true;
      gameOver = false;
      document.getElementById("incorrect").innerHTML = "";
      document.getElementById("endNode").innerHTML = `Accuracy: <br>Mistakes: <br>Time: <br>Score: `
 
      // Timer
-     var alreadyStarted = false;
-     var startTime;
+     alreadyStarted = false;
+     startTime;
 
      // Get the input from the textbox as it comes in
      $("#text").on("input", function(){
